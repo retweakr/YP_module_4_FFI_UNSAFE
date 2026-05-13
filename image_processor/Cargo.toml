@@ -1,0 +1,10 @@
+[package]
+name = "image_processor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+libloading = "0.8"
+thiserror = "2"
